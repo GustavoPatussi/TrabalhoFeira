@@ -1,0 +1,44 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(155, 209, 205);
+}
+.DivCadastro{
+    margin-top: 150px;
+    display: grid;
+    place-items: center;
+}
+label{
+    display: grid;
+    place-items: center;
+    margin-bottom: -20px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+input{
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    margin-bottom: -15px;
+}
+.inputText{
+    border-radius: 20px;
+    border: solid 2px;
+    border-color: rgb(40, 103, 114);
+    background-color: rgb(236, 215, 215);   
+}
+.inputText:hover{
+    width: 95%;
+    background-color:  rgb(192, 163, 163);
+}
+.inputSubmit{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px;   
+    background-color: rgb(167, 167, 167);
+    width: 100px;
+}
+.inputSubmit:hover{
+    background-color: rgb(173, 173, 173);
+}
