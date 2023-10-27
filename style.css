@@ -1,7 +1,7 @@
 
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background-color:rgb(116, 6, 6);
+    background-color:rgb(155, 209, 205);
 }
 .DivCadastro{
     margin-top: 150px;
@@ -29,7 +29,7 @@ input{
     background-color: rgb(236, 215, 215);   
 }
 .inputText:hover{
-    transform: scale(0.75);
+    width: 95%;
     background-color:  rgb(192, 163, 163);
 }
 .inputSubmit{
@@ -40,5 +40,5 @@ input{
     width: 100px;
 }
 .inputSubmit:hover{
-    background-color: rgb(201, 200, 200);
+    background-color: rgb(173, 173, 173);
 }
