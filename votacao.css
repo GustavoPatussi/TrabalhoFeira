@@ -1,17 +1,31 @@
 body{
     background-color: rgb(39, 43, 46);
     color: white;
+    text-align: center;
 }
-.gridItens{
+
+/* .gridItens{ 
     display: grid;
     grid-template-columns: 400px 400px 400px 400px;
     grid-template-rows: 400px 400px;
     grid-gap: 20px;
+} primeira tentativa*/
+.gridItens{
+    margin-top: 20px;
 }
+
+figure{
+
+    display: inline-block;
+    position: relative;
+    
+}
+
 .gridItens img{
     width: 360px;
     height: 360px;
     margin: 20px;
+    
 }
 nav{
     margin: 20px;
