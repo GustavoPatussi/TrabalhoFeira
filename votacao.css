@@ -1,36 +1,71 @@
-body{
+body {
     background-color: rgb(39, 43, 46);
     color: white;
     text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.gridItens {
+    margin-top: 20px;   
 }
 
-/* .gridItens{ 
-    display: grid;
-    grid-template-columns: 400px 400px 400px 400px;
-    grid-template-rows: 400px 400px;
-    grid-gap: 20px;
-} primeira tentativa*/
-.gridItens{
-    margin-top: 20px;
-}
-
-figure{
-
+figure {
+    border-radius: 25px;
     display: inline-block;
     position: relative;
-    
 }
 
-.gridItens img{
+.gridItens img {
+    border-radius: 25px;
+    box-shadow: 5px 8px 15px rgb(0, 0, 0, 0.7);
     width: 360px;
     height: 360px;
     margin: 20px;
-    
+    transition: transform 900ms;
 }
-nav{
+
+nav {
     margin: 20px;
     font-family: 'Noto Sans', sans-serif;
-    font-style:italic;
+    font-style: italic;
     font-size: 40px;
     text-align: center;
+}
+
+figcaption {
+    position: absolute;
+    margin: 20px;
+    border-radius: 25px;
+    top: 0;
+    left: 0;
+    width: 360px;
+    height: 360px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+figcaption h1{
+    position: absolute;
+    top: 15%;
+}
+figcaption p{
+    width: 95%;
+    font-size: large;
+}
+
+figure:hover figcaption {
+    opacity: 1;
+}
+figure:hover{
+    cursor: pointer;
+    transition: all 0.25s;
+    transform: scale(1.1);
+}
+figure:not(:hover) {
+    transition: all 0.25s;
+    scale: 1;
 }
