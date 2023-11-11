@@ -11,24 +11,25 @@
 <body>
     <div class="background"></div>
     <div class="DivCadastro">
-        <form action="./votacao/streaming.html">
+        <form action="./votacao/pagVotacao.html">
             <span class="text-center">login</span>
-        <div class="input-container">
-            <input type="text" required=""/>
-            <label>Nome</label>		
-        </div>
-        <div class="input-container">		
-            <input type="number" required=""/>
-            <label>Idade</label>
-        </div>
-            <div class="input-container">		
-            <input type="text" required=""/>
-            <label>Sala</label>
-        </div>
-            <input type="submit" class="btn" value="Enviar">
-    </form>	
+            <div class="input-container">
+                <input id="nome" type="text" required="" />
+                <label>Nome</label>
+            </div>
+            <div class="input-container">
+                <input id="idade" type="number" required="" />
+                <label>Idade</label>
+            </div>
+            <div class="input-container">
+                <input id="sala" type="number" required="" />
+                <label>Sala</label>
+            </div>
+            <input onclick="salvarUsuario()" type="submit" class="btn" value="Enviar">
+        </form>
     </div>
-    
+
 </body>
+<script src="main.js"></script>
 
 </html>

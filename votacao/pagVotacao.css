@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     background-color: rgb(39, 43, 46);
     color: white;
     text-align: center;
@@ -23,14 +24,6 @@ figure {
     transition: transform 900ms;
 }
 
-nav {
-    margin: 20px;
-    font-family: 'Noto Sans', sans-serif;
-    font-style: italic;
-    font-size: 40px;
-    text-align: center;
-}
-
 figcaption {
     position: absolute;
     margin: 20px;
@@ -43,28 +36,50 @@ figcaption {
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    align-items: center;
     opacity: 0;
     transition: opacity 0.4s ease;
 }
 figcaption h1{
-    position: absolute;
+    justify-content: center;
+    width: 90%;
+    position: fixed;
     top: 15%;
 }
 figcaption p{
+    
+    position: absolute;
     width: 95%;
+    top: 35%;
     font-size: large;
 }
+
 
 figure:hover figcaption {
     opacity: 1;
 }
 figure:hover{
+    z-index: 0;
     cursor: pointer;
     transition: all 0.25s;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 figure:not(:hover) {
     transition: all 0.25s;
     scale: 1;
 }
+.btnVotar{
+    width: 100px;
+    height: 30px;
+    bottom: 40px;
+    background-color: green;
+    position: inherit;
+    border: 0;
+	border-radius:3px;
+	cursor:pointer;
+    box-shadow: 1px 2px 2px rgb(0, 0, 0, 0.9);
+	transition: all 0.35s ease-in-out;
+}
+.btnVotar:hover{
+    background-color: rgb(0, 186, 0);
+}
+
