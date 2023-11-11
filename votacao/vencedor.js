@@ -41,9 +41,11 @@ const apurarStreaming = (lista, grid) => {
     let h1 = grid.querySelector('h1');
     let p = grid.querySelector('p');
 
-    h1.innerText = streamingMaisVotado;
-    img.src = `../imagens/${streamingMaisVotado}/logo.png`;
-    p.innerText = `O streaming ${streamingMaisVotado} ficou em primeiro nas votações , totalizando ${maxVotos} votos`
+    if (maxVotos != 0) {
+        h1.innerText = streamingMaisVotado;
+        img.src = `../imagens/${streamingMaisVotado}/logo.png`;
+        p.innerText = `${streamingMaisVotado} ficou em primeiro nas votações entre as plataformas de streaming, totalizando ${maxVotos} votos`
+    }
 
 
 }
@@ -80,9 +82,11 @@ const apurarSerie = (lista, grid) => {
     let h1 = grid.querySelector('h1');
     let p = grid.querySelector('p');
 
-    h1.innerText = serieMaisVotada.nome;
-    img.src = serieMaisVotada.img;
-    p.innerText = `O streaming ${serieMaisVotada.nome} ficou em primeiro nas votações, totalizando ${maxVotos} votos`
+    if (maxVotos != 0) {
+        h1.innerText = serieMaisVotada.nome;
+        img.src = serieMaisVotada.img;
+        p.innerText = `${serieMaisVotada.nome} ficou em primeiro nas votações entre as obras, totalizando ${maxVotos} votos`
+    }
 
     console.log(serieMaisVotada.nome)
     console.log(maxVotos);
