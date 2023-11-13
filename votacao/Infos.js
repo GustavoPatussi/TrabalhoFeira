@@ -131,8 +131,8 @@ const informacoes =
                 descricao: 'Conta as aventuras de Monkey D. Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido um fruto do diabo acidentalmente.',
                 img: '../imagens/Crunchyroll/OnePiece.jpg'
             }, {
-                nome: 'Os Cavaleiros do Zodíaco',
-                descricao: 'acompanha Seiya, um lutador que participa de competições por dinheiro. Durante uma luta, Seiya acaba descobrindo que tem poderes, e atrai a atenção do magnata Kido',
+                nome: 'Jujutsu Kaisen',
+                descricao: 'Itadori Yuuji tem como rotina visitar seu avô que está hospitalizado. Porém, um dia, um "objeto amaldiçoado" em sua escola é rompido, surgindo criaturas assustadoras.',
                 img: '../imagens/Crunchyroll/SaintSeiya.jpg'
             }
         ]
