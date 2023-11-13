@@ -133,7 +133,7 @@ const informacoes =
             }, {
                 nome: 'Jujutsu Kaisen',
                 descricao: 'Itadori Yuuji tem como rotina visitar seu avô que está hospitalizado. Porém, um dia, um "objeto amaldiçoado" em sua escola é rompido, surgindo criaturas assustadoras.',
-                img: '../imagens/Crunchyroll/SaintSeiya.jpg'
+                img: '../imagens/Crunchyroll/JujutsuKaisen.jpg'
             }
         ]
     }
