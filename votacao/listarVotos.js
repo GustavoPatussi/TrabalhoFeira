@@ -29,6 +29,7 @@ const listarVotos = () => {
         botaoExcluir.className = 'btnExcluir'
         botaoExcluir.dataset.id = i;
         botaoExcluir.innerText = 'Excluir';
+        botaoExcluir.disabled = true;
         colunaExcluir.appendChild(botaoExcluir);
 
         const linha = document.createElement("tr");
